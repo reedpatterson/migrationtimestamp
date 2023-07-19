@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "migrationtimestamp.helloWorld",
-        "title": "Hello World"
+        "command": "migrationtimestamp.printTimestamp",
+        "title": "Print Migration Timestamp"
       }
     ]
   },
