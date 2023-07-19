@@ -18,10 +18,26 @@
   "contributes": {
     "commands": [
       {
-        "command": "migrationtimestamp.printTimestamp",
+        "command": "migrationtimestamp.printMigrationTimestamp",
         "title": "Print Migration Timestamp"
+      },
+      {
+        "command": "migrationtimestamp.printTimestamp",
+        "title": "PrintTimestamp"
       }
-    ]
+    ],
+    "keybindings": [
+      {
+          "command": "migrationtimestamp.printMigrationTimestamp",
+          "key": "ctrl+shift+j",
+          "mac": "shift+cmd+j"
+      },
+      {
+          "command": "migrationtimestamp.printTimestamp",
+          "key": "ctrl+shift+k",
+          "mac": "shift+cmd+k"
+      }
+  ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
